@@ -11,7 +11,7 @@
 
 # 任务 3：插入网页图片
 插入一张网络图片：`![替代文本](图片URL)`。尝试添加可选的 title，如 `![猫](url "一只猫")`，鼠标悬停查看效果。
-- ![奶油蛋糕](![BQACAgUAAyEGAASHRsPbAAEXo7VqYCM3lFoF6mGBpaJ-DL6CmV14tgACWCMAAtJdAAFXV5dzTzV4NGM9BA.jpg](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEXo7VqYCM3lFoF6mGBpaJ-DL6CmV14tgACWCMAAtJdAAFXV5dzTzV4NGM9BA.jpg) /> "一份奶油蛋糕")
+- ![奶油蛋糕](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEXo7VqYCM3lFoF6mGBpaJ-DL6CmV14tgACWCMAAtJdAAFXV5dzTzV4NGM9BA.jpg "一份奶油蛋糕")
 
 
 # 任务四
