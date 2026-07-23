@@ -1,23 +1,32 @@
+
 # 我的学习计划与代码笔记
+
 ## 任务一 完整版开源项目 README.md 框架
+
 ### Markdown-Learn 学习仓库
-- [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-- [![Version](https://img.shields.io/badge/version-v1.0.0-green.svg)]()
-- [![GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)]()
+
+- [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://link.wtturl.cn/?target=https%3A%2F%2Fshields.io%2F&scene=im&aid=497858&lang=zh)
+- [![Version](https://img.shields.io/badge/version-v1.0.0-green.svg)](https://link.wtturl.cn/?target=https%3A%2F%2Fshields.io%2F&scene=im&aid=497858&lang=zh)
+- [![GitHub Docs](https://img.shields.io/badge/docs-passing-brightgreen)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 ## 项目简介
+
 - 仅为新手学习`markdown`语法，遵循开源项目 `README` 标准结构，覆盖标题、列表、代码块、引用等基础元素，作为学习模板使用[^1]
 
 ## 环境要求
+
 - 编辑器：`VS Code`
 - 文件格式：`.md`
 
 ## 安装步骤
+
 1. 将文档保存至本地文件夹
 2. 使用支持Markdown的编辑器打开
 3. 开启实时预览功能查看渲染效果
 4. 编完以后导出PDF或者HTML验证排版
 
 ## 代码示例
+
 ```python
 # 主程序运行示例
 def main():
@@ -29,15 +38,20 @@ if __name__ == "__main__":
 ```
 
 ## 任务二 添加脚注（扩展）
+
 [^1]: Markdown 最初由 John Gruber 在 2004 年设计，目标实现"易读、易写"。
 
 ## 任务三 列表与代码块缩进规范
-### 操作步骤:
+
+### 操作步骤
+
 - 在有序列表中插入代码块：列表项下空一行，然后缩进八个空格或一个 Tab，再放置围栏代码块，确保代码块是列表的一部分。练习列表内包含多段文字、引用块等复杂情况。
 
 各种不同语言的hello world程序
+
 1. c#
 
+```c#
          using System;
          namespace HelloWorld
          {
@@ -52,6 +66,7 @@ if __name__ == "__main__":
 
 2. java
 
+```java
        public class HelloWorld {
          public static void main(String[] args) {
            System.out.println("HelloWorld");
@@ -59,7 +74,8 @@ if __name__ == "__main__":
        }
 
 3. C语言
-        
+
+```c
          #include <stdio.h> // Include standard   input-output library
         
          int main() {
@@ -87,4 +103,3 @@ if __name__ == "__main__":
 
 **HTML注释**
 <!-- 全局隐藏注释：本文整合MD基础语法、脚注、列表嵌套代码、HTML混用全部知识点 -->
-
