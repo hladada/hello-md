@@ -27,5 +27,53 @@ if __name__ == "__main__":
     main()
 ```
 
-# 任务 2：添加脚注（扩展）
+# 任务二 添加脚注（扩展）
 [^1]: Markdown 最初由 John Gruber 在 2004 年设计，目标实现"易读、易写"。
+
+# 任务三 列表与代码块缩进规范
+### 操作步骤:
+- 在有序列表中插入代码块：列表项下空一行，然后缩进八个空格或一个 Tab，再放置围栏代码块，确保代码块是列表的一部分。练习列表内包含多段文字、引用块等复杂情况。
+
+各种不同语言的hello world程序
+1. c#
+
+         using System;
+         namespace HelloWorld
+         {
+           class Program
+           {
+             static void Main(string[] args)
+            {
+           Console.WriteLine("Hello World!");
+           }
+         }
+       }
+
+2. java
+
+       public class HelloWorld {
+         public static void main(String[] args) {
+           System.out.println("HelloWorld");
+         }
+       }
+
+3. C语言
+        
+         #include <stdio.h> // Include standard   input-output library
+        
+         int main() {
+         // Print message to console
+         printf("Hello, World!\n");
+         return 0; // Indicate successful program   termination
+       }
+
+4. java语言的特色
+
+> 一次编写到处运行、面向对象、兼具安全性与跨平台特性的通用编译型编程语言。
+
+1. 严格区分大小写，变量、关键字大小写不能混用
+2. 所有语句以分号结尾，类和代码块大括号配对完整
+3. 主程序入口固定为main方法，格式不可随意改动
+
+
+
